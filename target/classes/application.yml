@@ -1,0 +1,10 @@
+server:
+  port: 8888
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: file:///D:/Program%20Files%20(x86)/eclipse-workspace/ServerSideCloud/src/main/resources/config/microservice/{profile}
